@@ -532,8 +532,7 @@ public class ConnectionOptions {
       return this;
     }
 
-    @VisibleForTesting
-    Builder setCredentials(Credentials credentials) {
+    public Builder setCredentials(Credentials credentials) {
       this.credentials = credentials;
       return this;
     }
